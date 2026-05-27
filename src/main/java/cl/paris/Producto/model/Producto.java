@@ -16,15 +16,18 @@ public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
-    private int id;
+    private long id;
 
-    @Column(name = "TIPO", nullable = false, length =50)
-    private String tipó;
+    @Column(name = "NOMBRE", nullable = false, length =50)
+    private String nombre;
 
     @Column( name = "PRECIO", nullable = false, length =10)
     private int precio;
 
-    @Column( name = "ESTADO", nullable = false, length =10)
-    private String estado;
+     @Column( name = "STOCK", nullable = false, length =10)
+    private int stock;
+
+    @Column( name = "DESCRIPCION", nullable = false, length =10)
+    private String descripcion;
 
 }
