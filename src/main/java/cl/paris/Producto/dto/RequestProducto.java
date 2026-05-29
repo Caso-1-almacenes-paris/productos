@@ -1,5 +1,5 @@
 package cl.paris.Producto.dto;
 
-public record RequestProducto(String nombre , Integer precio, Integer stock, String descripcion) {
+public record RequestProducto(String nombre , Integer precio, Integer stock, String descripcion, String categoria) {
 
 }

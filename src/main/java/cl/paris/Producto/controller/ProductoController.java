@@ -30,10 +30,12 @@ public class ProductoController {
         public Producto seProducto(@RequestBody RequestProducto requestProductoproducto) {
             Producto producto = ProductoMapper.toProducto(requestProductoproducto);
             System.err.println(producto.getId());
+            System.err.println(producto.getIdprovedor());
             System.err.println(producto.getNombre());
             System.err.println(producto.getPrecio());
             System.err.println(producto.getStock());
             System.err.println(producto.getDescripcion());
+            System.err.println(producto.getCategoria());
             this.recService.serById(producto);
             return producto;
         }

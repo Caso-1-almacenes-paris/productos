@@ -18,6 +18,9 @@ public class Producto {
     @Column(name = "ID")
     private long id;
 
+    @Column(name = "ID PROVEDOR")
+    private long idprovedor;
+
     @Column(name = "NOMBRE", nullable = false, length =50)
     private String nombre;
 
@@ -30,4 +33,8 @@ public class Producto {
     @Column( name = "DESCRIPCION", nullable = false, length =10)
     private String descripcion;
 
+    @Column( name = "CATEGORIA", nullable = false, length =10)
+    private String categoria;
+    
+   
 }
