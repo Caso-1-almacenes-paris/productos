@@ -30,7 +30,7 @@ public class Producto {
      @Column( name = "STOCK", nullable = false, length =10)
     private int stock;
 
-    @Column( name = "DESCRIPCION", nullable = false, length =10)
+    @Column( name = "DESCRIPCION", nullable = false, length =100)
     private String descripcion;
 
     @Column( name = "CATEGORIA", nullable = false, length =10)
