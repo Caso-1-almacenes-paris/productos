@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: servicio-productos
+    name: productos
 
   datasource:
     url: jdbc:postgresql://ep-dark-flower-acxgvu5x-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require
