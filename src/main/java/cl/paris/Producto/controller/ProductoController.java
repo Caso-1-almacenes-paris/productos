@@ -12,7 +12,7 @@ import cl.paris.Producto.mapper.ProductoMapper;
 import cl.paris.Producto.model.Producto;
 
 @RestController
-@RequestMapping("/api/v1/productos")
+@RequestMapping("/api/productos")
 public class ProductoController {
 
         private final RecService recService;
